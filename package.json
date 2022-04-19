@@ -1,0 +1,31 @@
+{
+  "name": "cycli",
+  "version": "1.0.0",
+  "description": "脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "cy",
+  "license": "MIT",
+  "bin": {
+    "cycli": "./bin/cli"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "babel-core": "^6.26.3",
+    "chalk": "^4.1.2",
+    "commander": "^9.2.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.2",
+    "ora": "^5.4.1",
+    "path": "^0.12.7",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
